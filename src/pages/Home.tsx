@@ -21,8 +21,8 @@ export function Home() {
                 <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
                   A non-profit organization dedicated to supporting individuals
                   and families affected by memory loss, related cognitive
-                  impairment, and cardiovascular health issues through charitable
-                  initiatives and community-driven programs.
+                  impairment, and cardiovascular health issues through
+                  charitable initiatives and community-driven programs.
                 </p>
               </div>
 
@@ -38,9 +38,9 @@ export function Home() {
                 Our Approach:
               </p>
               <p className="text-blue-100">
-                We use innovative, holistic, and non-pharmacological
-                approaches to achieve our mission. Discovery conference
-                February 18, 2019 Preview.
+                We use innovative, holistic, and non-pharmacological approaches
+                to achieve our mission. (Discovery conference February 18, 2019
+                Preview).
               </p>
             </div>
             {/* <-- Close grid column for text content */}
