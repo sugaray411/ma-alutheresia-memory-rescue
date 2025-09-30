@@ -31,7 +31,7 @@ export function About() {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our organization was founded to honor the memory of two remarkable
-              women whose lives inspire our mission
+              women whose lives inspire our mission.
             </p>
           </div>
 
@@ -107,15 +107,16 @@ export function About() {
             {/* Vision & Mission */}
             <Card className="hover-lift bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200/50">
               <CardContent className="p-8">
-                <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Target className="w-8 h-8 text-white" />
-                  </div>
+                <div className="flex flex-col items-center mb-6">
+                  <img
+                    src="/images/dancing.png"
+                    alt="Mission activity"
+                    className="w-32 h-28 object-cover rounded-xl shadow-lg mb-4"
+                  />
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">
                     Our Vision and Mission
                   </h3>
                 </div>
-
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-semibold text-blue-600 mb-2">
@@ -148,10 +149,12 @@ export function About() {
             {/* Games and Activities */}
             <Card className="hover-lift bg-gradient-to-br from-green-50 to-emerald-50 border-green-200/50">
               <CardContent className="p-8">
-                <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Activity className="w-8 h-8 text-white" />
-                  </div>
+                <div className="flex flex-col items-center mb-6">
+                  <img
+                    src="/images/draft2.png"
+                    alt="Games activity"
+                    className="w-32 h-28 object-cover rounded-xl shadow-lg mb-4"
+                  />
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">
                     Games And Activities
                   </h3>
@@ -161,60 +164,87 @@ export function About() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-3">
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Memory Enhancement:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Memory Enhancement:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
-                          Through games and activities like balloon volleyball, playing cards, Ludo, Draught game, peg puzzle, coloring, and others.
+                          Through games and activities like balloon volleyball,
+                          playing cards, Ludo, Draught game, peg puzzle,
+                          coloring, and others.
                         </p>
                       </div>
-                      
+
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Physical Activity:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Physical Activity:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
-                          Engaging in exercises like riding a fixed exercise bike, walking, and dancing.
+                          Engaging in exercises like riding a fixed exercise
+                          bike, walking, and dancing.
                         </p>
                       </div>
-                      
+
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Cognitive Stimulation:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Cognitive Stimulation:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
-                          Promoting mental wellbeing through various games and activities.
+                          Promoting mental wellbeing through various games and
+                          activities.
                         </p>
                       </div>
-                      
+
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Social Interaction:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Social Interaction:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
-                          Fostering connections and community through group activities.
+                          Fostering connections and community through group
+                          activities.
                         </p>
                       </div>
                     </div>
-                    
+
                     <div className="space-y-3">
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Cardiovascular Health Education and Awareness:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Cardiovascular Health Education and Awareness:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
-                          Programs for heart disease awareness and prevention. Educating on healthy lifestyle choices.
+                          Programs for heart disease awareness and prevention.
+                          Educating on healthy lifestyle choices.
                         </p>
                       </div>
-                      
+
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Spiritual Support:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Spiritual Support:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
                           Providing counseling, reflection, and prayer.
                         </p>
                       </div>
-                      
+
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Counterfeit and Illicit Medication Awareness and Prevention:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Counterfeit and Illicit Medication Awareness and
+                          Prevention:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
-                          Raising awareness of medication safety and partnering with national and international organizations to support a robust supply chain that helps to promote the distribution of safe and effective medicines.
+                          Raising awareness of medication safety and partnering
+                          with national and international organizations to
+                          support a robust supply chain that helps to promote
+                          the distribution of safe and effective medicines.
                         </p>
                       </div>
-                      
+
                       <div>
-                        <h4 className="font-semibold text-green-600 mb-2">Holistic Wellness:</h4>
+                        <h4 className="font-semibold text-green-600 mb-2">
+                          Holistic Wellness:
+                        </h4>
                         <p className="text-gray-700 text-sm leading-relaxed">
-                          Supporting overall wellbeing through a combination of these programs.
+                          Supporting overall wellbeing through a combination of
+                          these programs.
                         </p>
                       </div>
                     </div>
@@ -226,10 +256,12 @@ export function About() {
             {/* Our Approach */}
             <Card className="hover-lift bg-gradient-to-br from-purple-50 to-violet-50 border-purple-200/50">
               <CardContent className="p-8">
-                <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-violet-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Heart className="w-8 h-8 text-white" />
-                  </div>
+                <div className="flex flex-col items-center mb-6">
+                  <img
+                    src="/images/ludo2.png"
+                    alt="Holistic approach"
+                    className="w-32 h-28 object-cover rounded-xl shadow-lg mb-4"
+                  />
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">
                     Our Approach: Holistic and Non-Pharmacological
                   </h3>
@@ -298,17 +330,24 @@ export function About() {
                   Founder
                 </Badge>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                About Our Founder, Eric Nvenge
-B Pharm, is the Founder of Ma AluTheresia Memory Rescue and Glitter of Hope Health Inc. With a strong background in pharmacy and social services, Eric leverages his expertise to drive positive change in the healthcare industry.
-
-Qualifications & Experience
-- Degree in Pharmacy and certifications in Pharmacy Compounding, Clinical Research, and Social Services
-- Registered professional with the Maryland Board of Pharmacy, Board of Nursing, and Maryland Non-Profit Organization
-- Proven experience in pharmacy management, including   Staff member at CVS Pharmacy, Hollywood Pharmacy, American Center for developmental disabilities Maryland, US and owner of Appolonia Pharmacy in Tiko, Cameroon
-- Former Chief Pharmacist at Cameroon Development Corporation (CDC)
-
--Impact & Mission
-Through Ma AluTheresia Memory Rescue and Glitter of Hope Health Inc., Eric promotes holistic, non-pharmacological, community-based initiatives that foster social engagement and enhance overall well-being for individuals and families.
+                  About Our Founder, Eric Nvenge B Pharm, is the Founder of Ma
+                  AluTheresia Memory Rescue and Glitter of Hope Health Inc. With
+                  a strong background in pharmacy and social services, Eric
+                  leverages his expertise to drive positive change in the
+                  healthcare industry. Qualifications & Experience - Degree in
+                  Pharmacy and certifications in Pharmacy Compounding, Clinical
+                  Research, and Social Services - Registered professional with
+                  the Maryland Board of Pharmacy, Board of Nursing, and Maryland
+                  Non-Profit Organization - Proven experience in pharmacy
+                  management, including Staff member at CVS Pharmacy, Hollywood
+                  Pharmacy, American Center for developmental disabilities
+                  Maryland, US and owner of Appolonia Pharmacy in Tiko, Cameroon
+                  - Former Chief Pharmacist at Cameroon Development Corporation
+                  (CDC) -Impact & Mission Through Ma AluTheresia Memory Rescue
+                  and Glitter of Hope Health Inc., Eric promotes holistic,
+                  non-pharmacological, community-based initiatives that foster
+                  social engagement and enhance overall well-being for
+                  individuals and families.
                 </p>
               </CardContent>
             </Card>
@@ -365,11 +404,12 @@ Through Ma AluTheresia Memory Rescue and Glitter of Hope Health Inc., Eric promo
                 <p className="text-gray-700 text-sm leading-relaxed">
                   Member of the foundation, holds a Master's degree in
                   Information Technology from the University of Cincinnati. With
-                  a background in social service, he bridges healthcare and technology to develop
-                  innovative solutions that support individuals with memory loss
-                  and cognitive challenges. His multidisciplinary expertise
-                  drives the organization's mission to improve health outcomes
-                  through research, technology, and community engagement.
+                  a background in social service, he bridges healthcare and
+                  technology to develop innovative solutions that support
+                  individuals with memory loss and cognitive challenges. His
+                  multidisciplinary expertise drives the organization's mission
+                  to improve health outcomes through research, technology, and
+                  community engagement.
                 </p>
               </CardContent>
             </Card>
