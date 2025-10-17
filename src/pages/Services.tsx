@@ -149,7 +149,7 @@ export function Services() {
   const serviceImages = [
     "/images/drawing.jpg", // Memory Enhancement
     "/images/exercising.jpg", // Physical Activity
-    "/images/alzball2.jpg", // Cognitive Stimulation
+    "/images/balloon3.png", // Cognitive Stimulation (updated here)
     "/images/playing.jpg", // Social Interaction
   ];
 

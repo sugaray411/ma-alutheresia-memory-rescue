@@ -123,9 +123,10 @@ export function About() {
                       Vision:
                     </h4>
                     <p className="text-gray-700 leading-relaxed">
-                      To use our resources to promote memory and heart health
-                      through non-profit, community-centered activities that
-                      improve quality of life.
+                      Vision: A world where individuals and families affected by
+                      memory loss and cardiovascular challenges live with
+                      dignity, resilience, and hope empowered through
+                      community-driven support and holistic care.
                     </p>
                   </div>
 
@@ -136,10 +137,13 @@ export function About() {
                       Mission:
                     </h4>
                     <p className="text-gray-700 leading-relaxed">
-                      To provide engaging, non-pharmacological activities that
-                      help people keep their minds active, build strong social
-                      connections, and support healthy lifestyles to prevent
-                      memory decline and heart disease.
+                      To improve quality of life by offering innovative,
+                      non-pharmacological, and community-centered programs that
+                      stimulate memory, strengthen heart health, and foster
+                      social connections. We are committed to education,
+                      advocacy, and holistic wellness approaches that prevent
+                      decline, promote healthy lifestyles, and support families
+                      on their journey.
                     </p>
                   </div>
                 </div>
@@ -290,6 +294,55 @@ export function About() {
                       cognitive behavioral therapy.
                     </p>
                   </div>
+
+                  {/* Core Values */}
+                  <div>
+                    <h4 className="font-semibold text-purple-600 mb-2">
+                      Core Values:
+                    </h4>
+                    <ul className="list-disc pl-6 text-gray-700 text-sm space-y-2">
+                      <li>
+                        <span className="font-semibold">Compassion:</span> We
+                        serve with empathy, dignity, and respect for every
+                        individual and family.
+                      </li>
+                      <li>
+                        <span className="font-semibold">Integrity:</span> We
+                        uphold honesty, transparency, and accountability in all
+                        our programs and partnerships.
+                      </li>
+                      <li>
+                        <span className="font-semibold">Community:</span> We
+                        believe in collective strength, building supportive
+                        networks that bring people together.
+                      </li>
+                      <li>
+                        <span className="font-semibold">Innovation:</span> We
+                        promote creative, evidence-based, and
+                        non-pharmacological approaches to memory and heart
+                        health.
+                      </li>
+                      <li>
+                        <span className="font-semibold">
+                          Holistic Wellness:
+                        </span>{" "}
+                        We support mind, body, spirit, and social wellbeing as
+                        interconnected parts of healthy living.
+                      </li>
+                      <li>
+                        <span className="font-semibold">
+                          Education & Advocacy:
+                        </span>{" "}
+                        We empower communities with knowledge to prevent
+                        illness, fight stigma, and promote awareness.
+                      </li>
+                      <li>
+                        <span className="font-semibold">Legacy & Hope:</span> We
+                        honor the memory of those who inspire our mission while
+                        creating a healthier future for the next generation.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -373,12 +426,18 @@ export function About() {
                 <p className="text-gray-700 text-sm leading-relaxed">
                   A dedicated board member of Ma AluTheresia Memory Rescue and
                   Glitter of Hope Health Inc. With over 5 years of experience
-                  supporting individuals with developmental disabilities, he
-                  holds certifications in medication management, clinical
-                  research, and IT. Michel is passionate about promoting
-                  cognitive health and applies creative strategies to help
-                  individuals with memory loss, reflecting his deep commitment
-                  to improving lives.
+                  supporting individuals with developmental disabilities, Michel
+                  previously served as a Staff Coordinator at Community Support
+                  Services (CSS), where he worked directly with children on the
+                  autism spectrum. In this role, he coordinated individualized
+                  care plans, guided staff, documented progress, and supported
+                  behavioral and educational interventions to foster growth,
+                  independence, and inclusion. He also holds certifications in
+                  medication management, clinical research, and IT. Passionate
+                  about promoting cognitive and mental health, Michel applies
+                  creative strategies to help individuals with memory loss and
+                  developmental challenges, reflecting his deep commitment to
+                  improving lives and empowering communities.
                 </p>
               </CardContent>
             </Card>
@@ -402,14 +461,21 @@ export function About() {
                   Board Member
                 </Badge>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Member of the foundation, holds a Master's degree in
-                  Information Technology from the University of Cincinnati. With
-                  a background in social service, he bridges healthcare and
-                  technology to develop innovative solutions that support
-                  individuals with memory loss and cognitive challenges. His
-                  multidisciplinary expertise drives the organization's mission
-                  to improve health outcomes through research, technology, and
-                  community engagement.
+                  A dedicated member of the foundation, Sugar holds a Master’s
+                  degree in Information Technology from the University of
+                  Cincinnati. As a Software Engineer with a strong background in
+                  social services, he bridges the fields of healthcare and
+                  technology, bringing a unique perspective that integrates
+                  technical knowledge with compassionate support for individuals
+                  with memory loss, developmental disabilities, and cognitive
+                  challenges. Guided by a deep passion for care, inclusion, and
+                  empowerment, Sugar is committed to helping individuals
+                  overcome daily challenges and improve their quality of life.
+                  His multidisciplinary expertise—spanning information
+                  technology, clinical research, and behavioral support—reflects
+                  his dedication to advancing the foundation’s mission of
+                  improving health outcomes through research, technology
+                  awareness, and community engagement.
                 </p>
               </CardContent>
             </Card>
