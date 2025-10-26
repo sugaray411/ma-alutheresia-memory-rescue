@@ -1,27 +1,34 @@
-import { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
-import { Button } from '../components/ui/button';
-import { Phone, Mail, MapPin, Clock, Users, Heart } from 'lucide-react';
+import { useState } from "react";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Phone, Mail, MapPin, Clock, Users, Heart } from "lucide-react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission - in a real app, this would send to a backend
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    console.log("Form submitted:", formData);
+    alert("Thank you for your message! We will get back to you soon.");
+    setFormData({ name: "", email: "", subject: "", message: "" });
   };
 
   return (
@@ -35,7 +42,8 @@ export function Contact() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-emerald-100 max-w-4xl mx-auto leading-relaxed">
-            Have questions about our programs or want to get involved? We're here to help!
+            Have questions about our programs or want to get involved? We're
+            here to help!
           </p>
         </div>
       </section>
@@ -51,8 +59,9 @@ export function Contact() {
                   Contact Information
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                  Reach out to us through any of the following methods. We're committed to responding promptly 
-                  and providing the support you need.
+                  Reach out to us through any of the following methods. We're
+                  committed to responding promptly and providing the support you
+                  need.
                 </p>
               </div>
 
@@ -65,10 +74,14 @@ export function Contact() {
                         <Phone className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
-                        <p className="text-gray-600 mb-2">Call us directly for immediate assistance</p>
-                        <a 
-                          href="tel:240-310-5210" 
+                        <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                          Phone
+                        </h3>
+                        <p className="text-gray-600 mb-2">
+                          Call us directly for immediate assistance
+                        </p>
+                        <a
+                          href="tel:240-310-5210"
                           className="text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
                         >
                           240-310-5210
@@ -86,13 +99,17 @@ export function Contact() {
                         <Mail className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                        <p className="text-gray-600 mb-2">Send us a detailed message</p>
-                        <a 
-                          href="mailto:nvengeeric@yahoo.com" 
+                        <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                          Email
+                        </h3>
+                        <p className="text-gray-600 mb-2">
+                          Send us a detailed message
+                        </p>
+                        <a
+                          href="mailto:nvengeeric@yahoo.com"
                           className="text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors break-all"
                         >
-                          nvengeeric@yahoo.com
+                          admin@rescuememory.com
                         </a>
                       </div>
                     </div>
@@ -107,10 +124,15 @@ export function Contact() {
                         <MapPin className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-1">Office Address</h3>
-                        <p className="text-gray-600 mb-2">Visit us at our location</p>
+                        <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                          Office Address
+                        </h3>
+                        <p className="text-gray-600 mb-2">
+                          Visit us at our location
+                        </p>
                         <address className="text-lg text-gray-700 not-italic">
-                          10312 Garson Terrace<br />
+                          10312 Garson Terrace
+                          <br />
                           Lanham, MD 20706
                         </address>
                       </div>
@@ -126,7 +148,9 @@ export function Contact() {
                     <Users className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">How We Can Help</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                      How We Can Help
+                    </h3>
                     <ul className="text-gray-700 space-y-1 text-sm">
                       <li>• Memory enhancement through games and activities</li>
                       <li>• Physical activity and exercise programs</li>
@@ -153,14 +177,18 @@ export function Contact() {
                     <span>Send us a Message</span>
                   </CardTitle>
                   <p className="text-gray-600">
-                    Fill out the form below and we'll get back to you as soon as possible.
+                    Fill out the form below and we'll get back to you as soon as
+                    possible.
                   </p>
                 </CardHeader>
                 <CardContent>
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                        <label
+                          htmlFor="name"
+                          className="block text-sm font-medium text-gray-700 mb-2"
+                        >
                           Name *
                         </label>
                         <input
@@ -175,7 +203,10 @@ export function Contact() {
                         />
                       </div>
                       <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                        <label
+                          htmlFor="email"
+                          className="block text-sm font-medium text-gray-700 mb-2"
+                        >
                           Email *
                         </label>
                         <input
@@ -190,9 +221,12 @@ export function Contact() {
                         />
                       </div>
                     </div>
-                    
+
                     <div>
-                      <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                      <label
+                        htmlFor="subject"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
                         Subject *
                       </label>
                       <input
@@ -206,9 +240,12 @@ export function Contact() {
                         placeholder="What is your message about?"
                       />
                     </div>
-                    
+
                     <div>
-                      <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                      <label
+                        htmlFor="message"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
                         Message *
                       </label>
                       <textarea
@@ -222,10 +259,10 @@ export function Contact() {
                         placeholder="Please share your questions, comments, or how you'd like to get involved..."
                       />
                     </div>
-                    
-                    <Button 
-                      type="submit" 
-                      size="lg" 
+
+                    <Button
+                      type="submit"
+                      size="lg"
                       className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-3"
                     >
                       Send Message
@@ -237,8 +274,6 @@ export function Contact() {
           </div>
         </div>
       </section>
-
-
     </div>
   );
 }
