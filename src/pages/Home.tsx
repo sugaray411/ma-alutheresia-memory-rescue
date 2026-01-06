@@ -27,11 +27,9 @@ export function Home() {
               </div>
 
               <p className="text-lg text-blue-200">
-                We believe that everyone deserves to live with dignity and
-                purpose, regardless of their health challenges. Our mission is
-                to provide innovative programs, education, support, and
-                resources to address these challenges using holistic,
-                non-pharmacological approaches.
+                Ma Alu Theresia Memory Rescue & Glitter of Hope Health Inc. aims to address
+                critical gaps in cognitive, emotional, and physical wellness programming for 
+                Maryland's aging population (1.2 million residents aged 60+, projected to reach 1.7 million by 2035). The Memory & Wellness Program offers evidence-based interventions, including cognitive training, music and movement therapy to slow cognitive decline, reduce depression, and improve quality of life.
               </p>
 
               <p className="text-lg font-semibold text-yellow-300 mb-2">

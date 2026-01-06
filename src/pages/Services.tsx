@@ -169,11 +169,29 @@ export function Services() {
             changes, and overall wellness
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 max-w-4xl mx-auto">
-            <p className="text-lg text-blue-100">
-              Healthy Lifestyle and Cognitive Function: A 2019 study published
-              in the journal Neurology found that a healthy lifestyle (including
-              physical activity, social engagement, and cognitive stimulation)
-              is associated with better cognitive function in older adults.
+            <h2 className="text-2xl md:text-3xl font-bold text-blue-200 mb-4 text-left">
+              Problem Statement
+            </h2>
+            <br />Maryland's seniors face significant health challenges, including:<br />
+            <ul className="text-lg text-blue-200 text-left list-disc pl-6 mb-4">
+              <li>
+                110,000 residents living with Alzheimer's disease <span className="text-xs">(Alzheimer's Association, 2021)</span>
+              </li>
+              <li>
+                1 in 4 seniors experiencing depressive symptoms <span className="text-xs">(CDC, 2023)</span>
+              </li>
+              <li>
+                1 in 6 reporting subjective cognitive decline <span className="text-xs">(CDC, 2023)</span>
+              </li>
+              <li>
+                African American seniors facing twice the dementia risk <span className="text-xs">(Maryland Department of Health and Mental Hygiene, 2023)</span>
+              </li>
+              <li>
+                $250 million in preventable hospitalizations annually <span className="text-xs">(Maryland Department of Aging, 2024)</span>
+              </li>
+            </ul>
+            <p className="text-lg text-blue-200 text-left">
+              Most senior care facilities lack structured, evidence-based programming, accelerating cognitive decline and diminishing quality of life.
             </p>
           </div>
         </div>
