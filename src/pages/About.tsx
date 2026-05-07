@@ -394,7 +394,7 @@ export function About() {
                   Non-Profit Organization - Proven experience in pharmacy
                   management, including Staff member at CVS Pharmacy, Hollywood
                   Pharmacy, American Center for developmental disabilities
-                  Maryland, US and owner of Appolonia Pharmacy in Tiko, Cameroon
+                  Maryland, US
                   - Former Chief Pharmacist at Cameroon Development Corporation
                   (CDC) -Impact & Mission Through Ma AluTheresia Memory Rescue
                   and Glitter of Hope Health Inc., Eric promotes holistic,
